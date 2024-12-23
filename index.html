@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FONT AWESOME ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>AbhishekSaini-Portfolio</title>
+</head>
+
+<body>
+  <!-- <div class="cursor_dot" data-cursor-dot></div>
+  <div class="cursor-outline" data-cursor-outline></div> -->
+  <!--==================== STYLE SWITCHER ====================-->
+  <input type="radio" name="color" id="color-1" />
+  <input type="radio" name="color" id="color-2" />
+  <input type="radio" name="color" id="color-3" />
+  <input type="radio" name="color" id="color-4" />
+  <input type="radio" name="color" id="color-5" />
+  <input type="radio" name="color" id="color-6" />
+  <input type="radio" name="color" id="color-7" />
+  <input type="radio" name="color" id="color-8" />
+  <input type="radio" name="color" id="color-9" />
+  <input type="radio" name="color" id="color-10" />
+  <input type="checkbox" id="toggler" />
+  <input type="checkbox" id="day-night" />
+
+  <div class="style__switcher">
+    <label for="toggler" class="style__switcher-toggler">
+      <i class="fa-solid fa-gear fa-spin"></i>
+    </label>
+
+    <label for="day-night" class="style__switcher-theme">
+      <i class="fa-solid fa-sun"></i>
+      <i class="fa-solid fa-moon"></i>
+    </label>
+
+    <h3 class="style__switcher-title">Theme Colors</h3>
+    <div class="style__switcher-colors">
+      <label for="color-1" class="color-1 color"></label>
+      <label for="color-2" class="color-2 color"></label>
+      <label for="color-3" class="color-3 color"></label>
+      <label for="color-4" class="color-4 color"></label>
+      <label for="color-5" class="color-5 color"></label>
+      <label for="color-6" class="color-6 color"></label>
+      <label for="color-7" class="color-7 color"></label>
+      <label for="color-8" class="color-8 color"></label>
+      <label for="color-9" class="color-9 color"></label>
+      <label for="color-10" class="color-10 color"></label>
+
+    </div>
+  </div>
+
+  <!--==================== HEADER ====================-->
+  <header class="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">Abhishek</a>
+      <input type="checkbox" id="nav-toggler">
+      <label for="nav-toggler" class="nav__toggle">
+        <i class="fa-solid fa-duotone fa-bars"></i>
+      </label>
+
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#home" class="nav__link active-link">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="#about" class="nav__link ">About</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#qualification" class="nav__link ">Experience</a>
+        </li>
+        <li class="nav__item">
+          <a href="#services" class="nav__link ">Services</a>
+        </li>
+        <li class="nav__item">
+          <a href="#skills" class="nav__link ">Skills</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#works" class="nav__link ">Portfolio</a>
+        </li>
+        <li class="nav__item">
+          <a href="#contact" class="nav__link">Contact</a>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <span class="home__small">Hello &#128507;</span>
+          <h1 class="home__title">
+            <span>I'm</span> Abhishek<br />
+            a <span>Web Developer</span>
+            <p class="home__description">I'm a dedicated web developer with a creative flair.
+              I've since honed my skills in front-end and back-end development.
+            </p>
+            <div class="home__btns">
+              <a href="#contact" class="btn">Hire Me</a>
+              <a href="#works" class="btn btn--transparent">Portfolio</a>
+            </div>
+          </h1>
+        </div>
+        <div class="home__img-wrapper">
+          <img src="assets/img/main-pic.png" alt="" class="home__img" />
+        </div>
+      </div>
+    </section>
+
+
+    <!--==================== ABOUT ====================-->
+    <section class="abou section" id="about">
+      <div class="about__container container grid">
+        <div class="about__img-wrapper">
+          <img src="assets/img/IMG_6765.png" alt="" class="about__img">
+          <img src="assets/img/IMG_6765.png" alt="" class="about__img">
+          <img src="assets/img/IMG_6765.png" alt="" class="about__img">
+          <img src="assets/img/IMG_6765.png" alt="" class="about__img">
+        </div>
+        <div class="about__content">
+          <h2 class="section__title" data-title="Who am i?">
+            I'm Abhishek Saini , a Web Developer.
+
+          </h2>
+          <p class="about__decscription">
+            I'm Full stack web Developer.
+            Student of Computer Science Engineering at Government Engineering College Jhalawar, India. I
+            enjoy taking complex problems and turning them into simple designs using my coding skills. Currently working
+            on enhancing my Problem Solving Skills in Data Structures and Algorithms. Looking forward to collaborate on
+            different open-source projects. And I like to put lot of my emotions, experiences, and opinions into what I
+            write in my spare time.
+
+          </p>
+          <ul class=" about__data grid">
+            <li class="data__item">
+              <h3 class="data__title">Name:</h3>
+              <span class="data__decscription">Abhishek Saini</span>
+
+            </li>
+            <li class="data__item">
+              <h3 class="data__title">Age:</h3>
+              <span class="data__decscription">22 Years</span>
+
+            </li>
+            <li class="data__item">
+              <h3 class="data__title">From:</h3>
+              <span class="data__decscription">Kota,Rajasthan(india)</span>
+
+            </li>
+            <li class="data__item">
+              <h3 class="data__title">Email</h3>
+              <span class="data__decscription about__link">abhisheksaini43950@gmail.com</span>
+
+            </li>
+          </ul>
+          <div class="about__bottom">
+            <a href="Abhishek_resume.pdf" class="btn">Download Cv</a>
+            <div class="about__social-links">
+              <a href="https://github.com/Abhi45op" target="_blank" class="about__social-link">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.instagram.com/its__abhiishek?igsh=MTdwNDQxOXp1amZsbQ%3D%3D&utm_source=qr"
+                class="about__social-link" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="" class="about__social-link">
+                <i class="fa-brands fa-square-facebook"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/abhishek-saini-10231a277/" target="_blank"
+                class="about__social-link">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://x.com/abhiisheksaini1?s=11" class="about__social-link">
+                <i class="fa-brands fa-square-x-twitter"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--==================== QUALIFICATION ====================-->
+    <section class="qualification section" id="qualification">
+
+      <h2 class="section__title title-center" data-title="My Journey">Qualification</h2>
+      <!-- Education backgroung -->
+      <div class="resume__container container grid">
+        <div class="resume__group">
+          <h3 class="resume__heading">Education</h3>
+          <div class="resume__items">
+      
+
+
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle"> Degree</h3>
+                <span class="resume__icon">+</span>
+              </div>
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Government Engineering College, Jhalawar</h3>
+                  <span class="resume__date">2021-2025</span>
+                </div>
+                <p class="resume__description">In,this College spend 4years and learn the about College life and study
+                  of branch computer science and engineering.this college was of RTU-Rajasthan Technical University,Kota
+                  Rajasthan.</p>
+              </div>
+            </div>
+
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">Schooling</h3>
+                <span class="resume__icon">-</span>
+              </div>
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Dilip Senior Secondary School</h3>
+                  <span class="resume__date">2019-2021</span>
+                </div>
+                <p class="resume__description">In,this school spend 2years nd learn the about senior student life. this
+                  school was an RBSE-Rajasthan Board of Secondary Education.where i spend from class 11th to 12th class.
+                </p>
+              </div>
+            </div>
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">Schooling</h3>
+                <span class="resume__icon">+</span>
+              </div>
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Maheshwari Public School</h3>
+                  <span class="resume__date">2006-2019</span>
+                </div>
+                <p class="resume__description">In,this school spend so much time and learn the student life. this school
+                  was an CBSE-Central Board of Secondary Education.where i spend from class playgroup to 10th class.the entire life 
+                is being a part of these school.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Exeperince section  -->
+
+        <div class="resume__group">
+          <h3 class="resume__heading">Experience</h3>
+          <div class="resume__items">
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">Intership-Web Devlopment</h3>
+                <span class="resume__icon">+</span>
+              </div>
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Wayug Infotech Private Limited
+                  </h3>
+                  <span class="resume__date">3 Months</span>
+                </div>
+                <p class="resume__description">At Wayug,web based  dedicated to transforming ideas into innovative
+                  solutions. As a leading software development company based in Delhi, they specialize in creating
+                  cutting-edge software across diverse domains. Whether you're looking for customized business
+                  applications.</p>
+              </div>
+            </div>
+
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">Intership-Android App Devlopment</h3>
+                <span class="resume__icon">-</span>
+              </div>
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Entity Sports Pvt Ltd.</h3>
+                  <span class="resume__date">40 Days</span>
+                </div>
+                <p class="resume__description">Achieved programming langauge in android develpoment skills.application
+                  to learn that how to develope them which led to improvement in skills</p>
+              </div>
+            </div>
+
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">Intership</h3>
+                <span class="resume__icon">+</span>
+              </div>
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">DRM-Division Railway Manager.Kota(Raj.)</h3>
+                  <span class="resume__date">30 Days</span>
+                </div>
+                <p class="resume__description">Attended training about study of data logger /MIS ,auto exchange,
+                  IVRS,Railnet and railway station of kotadivision at Western Central railway.</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------CERtificates____ -->
+
+    <section class="works section" id="">
+      <h2 class="section__title title-center" data-title="My Achievements">
+        Certificates
+      </h2>
+      <div class="work__container container grid">
+        <div class="work__card">
+          <img src="assets/img/certificatetata.png" alt="" class="work__img">
+          <div class="work__details">
+            <h3 class="work__title">Tata Data Visualisation</h3>
+            <span class="work__description"> Empowering Business with Effective Insights Job
+              Simulation on Forage - July 2024.
+            </span>
+          </div>
+        </div>
+
+        <!-- workcard2 -->
+        <div class="work__card">
+          <img src="assets/img/accurATE-1.png" alt="" class="work__img">
+          <div class="work__details">
+            <h3 class="work__title">Data Analytics </h3>
+            <span class="work__description">and Visualization Job
+              Simulation</span>
+          </div>
+        </div>
+        <!-- workxard3 -->
+        <div class="work__card">
+          <img src="assets/img/masi.jpg" alt="" class="work__img">
+          <div class="work__details">
+            <h3 class="work__title">IIT Guwahati </h3>
+            <span class="work__description">Masi school</span>
+          </div>
+        </div>
+        <!-- workcard4 -->
+        <div class="work__card">
+          <img src="assets/img/infosys-1.png" alt="" class="work__img">
+          <div class="work__details">
+            <h3 class="work__title">Data Science</h3>
+            <span class="work__description">this Course i learn the basic for Python and machine learning</span>
+          </div>
+        </div>
+        <!-- workcard5 -->
+        <div class="work__card">
+          <img
+            src="assets/img/oX6f9BbCL9kJDJzfg_Walmart USA_Stt5FE4ZXivukPtQQ_1721208192487_completion_certificate-1.png"
+            alt="" class="work__img">
+          <div class="work__details">
+            <h3 class="work__title">Advanced Software Engineering </h3>
+            <span class="work__description">Job
+              Simulation and Advanced Data Structures
+              Software Architecture,Relational Database Design,Data Munging</span>
+          </div>
+        </div>
+        <!-- workcard6 -->
+        <div class="work__card">
+          <img src="assets/img/sql-1.png" alt="" class="work__img">
+          <div class="work__details">
+            <h3 class="work__title">Introduction to SQL</h3>
+            <span class="work__description">SQL is a standard language for storing, manipulating and retrieving data in
+              databases.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--==================== SERVICES ====================-->
+    <section class="services section" id="services">
+      <h2 class="section__title title-center" data-title="Services">
+        What I do for you
+      </h2>
+      <!-- services card 01 -->
+      <div class="services__container container grid">
+        <div class="services__item">
+          <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+          <h3 class="services__title">Website design</h3>
+          <p class="services__description"> I craft user-friendly interfaces that engage visitors and help you achieve
+            your online goals with minimum efforts.</p>
+          <span class="services__no">01</span>
+        </div>
+        <!-- services card 02 -->
+        <div class="services__item">
+          <i class="fa-solid fa-laptop services__icon"></i>
+
+          <h3 class="services__title">Frontend Development</h3>
+          <p class="services__description">I work on HTML,CSS, Tailwind, bootstrap,jquery, JavaScript and React in
+            frontend web development.</p>
+          <span class="services__no">02</span>
+        </div>
+        <!-- services card 03 -->
+        <div class="services__item">
+          <i class=" fa-solid fa-thin fa-mobile services__icon"></i>
+
+          <h3 class="services__title">Android App Development</h3>
+          <p class="services__description">From iOS to Android, I create apps that deliver seamless performance and keep
+            users coming back for more.</p>
+          <span class="services__no">03</span>
+        </div>
+
+        <!-- cards 2line -->
+
+        <div class="services__item">
+          <i class="fa-solid fa-share services__icon"></i>
+
+          <h3 class="services__title">Content Marketing</h3>
+          <p class="services__description">Our services include creating blog posts, videos, and social media content
+            that drives traffic and engagement.</p>
+          <span class="services__no">04</span>
+        </div>
+        <!-- services card 02 -->
+        <div class="services__item">
+          <i class="fa-solid fa-laptop services__icon"></i>
+
+          <h3 class="services__title"> Backend Develpment</h3>
+          <p class="services__description">Backend projects are applications or websites you create to prove your web
+            development skills. Here, you can show your ability to work with different types of frameworks and code to
+            create a functioning web application.</p>
+          <span class="services__no">05</span>
+        </div>
+        <!-- services card 03 -->
+        <div class="services__item">
+          <i class="fa-solid fa-chart-area services__icon"></i>
+
+          <h3 class="services__title">Research and Data analysis</h3>
+          <p class="services__description">In Research and data Analytics, It demonstrates concrete capabilities in data
+            cleaning, analysis, and visualization as well as the ability to effectively communicate insights. </p>
+          <span class="services__no">06</span>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+      <h2 class="section__title title-center" data-title="my talent">Professional Skills</h2>
+
+      <div class="skills__container container grid">
+        <!-- card1 -->
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">Html</h3>
+            <span class="skills__no">90%</span>
+          </div>
+          <p class="skills__description">HTML stands for HyperText Markup Language. It is used to design web pages using
+            a markup language. HTML is a combination of Hypertext and Markup language.
+          </p>
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 90%;">
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <!-- card2 -->
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">Css</h3>
+            <span class="skills__no">85%</span>
+          </div>
+          <p class="skills__description">CSS (Cascading Style Sheets) is a language designed to simplify the process of
+            making web pages presentable. It allows you to apply styles to HTML documents.
+          </p>
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 85%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- card3 -->
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">Javascript</h3>
+            <span class="skills__no">85%</span>
+          </div>
+          <p class="skills__description">JavaScriptis a lightweight,cross-platform, single-threaded, and interpreted
+            compiledprogramming language. It is also known as the scripting language for webpages..
+          </p>
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 85%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">React</h3>
+            <span class="skills__no">85%</span>
+          </div>
+          <p class="skills__description">React is a JavaScript library for building user interfaces.It was developed by
+            Facebook (now Meta) and is open-source. React allows developers to build complex web applications in a
+            modular way.
+          </p>
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 85%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">Python</h3>
+            <span class="skills__no">85%</span>
+          </div>
+          <p class="skills__description">Python is one of the easiest yet most useful programming languages which is
+            widely used in the software industry.Python is a programming language that is interpreted, object-oriented.
+          </p>
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 85%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">Java</h3>
+            <span class="skills__no">55%</span>
+          </div>
+          <p class="skills__description">Java is an object-oriented,class-based programming language. The language is
+            designed to have as few dependencies implementations. The intention of using this language is to
+            give relief to the developers.
+          </p>
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 55%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== PORTFOLIO ====================-->
+    <section class="works section" id="works">
+      <h2 class="section__title title-center" data-title="My projects">
+        Recent Works
+      </h2>
+      <div class="work__container container grid">
+        <div class="work__card">
+          <img src="assets/img/revo hospital.png" alt="" class="work__img">
+          <div class="work__details">
+            <h3 class="work__title">Hospital website </h3>
+            <span class="work__description">this is a Website of hospital where you can find the details about hospital services and doctor</span>
+          </div>
+        </div>
+
+        <!-- workcard2 -->
+        <div class="work__card">
+          <img src="assets/img/wintechno.png" alt="" class="work__img">
+          <div class="work__details">
+            <h3 class="work__title">wintechno</h3>
+            <span class="work__description">this is a Recyling Website</span>
+          </div>
+        </div>
+        <!-- workxard3 -->
+        <div class="work__card">
+          <img src="assets/img/savguardelite.png" alt="" class="work__img">
+          <div class="work__details">
+            <h3 class="work__title">Guard Elite</h3>
+            <span class="work__description">this website provides the Guard Services.</span>
+          </div>
+        </div>
+        <!-- workcard4 -->
+        <div class="work__card">
+          <img src="assets/img/dashboard .png" alt="" class="work__img">
+          <div class="work__details">
+            <h3 class="work__title">Doctor dashboard</h3>
+            <span class="work__description">this is a dashboard</span>
+          </div>
+        </div>
+        <!-- workcard5 -->
+        <div class="work__card">
+          <img src="assets/img/fitnesswebsite.png" alt="" class="work__img">
+          <div class="work__details">
+            <h3 class="work__title">Fitness Landing Page</h3>
+            <span class="work__description">this website provides the information about Gym.</span>
+          </div>
+        </div>
+        <!-- workcard6 -->
+        <div class="work__card">
+          <img src="assets/img/constructionssteel.png" alt="" class="work__img">
+          <div class="work__details">
+            <h3 class="work__title">Constructions Website</h3>
+            <span class="work__description">this website gives the information about the steel</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--==================== TESTIMONIALS ====================-->
+    <!-- <section class="testimonials section">
+      <h2 class="section__title title-center" data-title="Testimonials">
+        What My Clients Say
+      </h2>
+      <div class="testimonials__container container grid">
+        <div class="testimonials__item">
+          <p class="testimonials__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laborum
+            consectetur itaque sint recusandae animi, ducimus, sequi minus atque placeat nostrum? Esse porro iste
+            voluptatem rerum nihil aspernatur vero ab.
+
+          </p>
+          <div class="testimonials__data">
+            <img class="testimonials__img" src="assets/img/testimonial-1.jpg" alt="">
+            <div>
+              <h3 class="testimonials__name">Jhon</h3>
+              <span class="testimonials__identity">india</span>
+            </div>
+          </div>
+        </div>
+
+         testimonials2nd -->
+        <!-- <div class="testimonials__item">
+          <p class="testimonials__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laborum
+            consectetur itaque sint recusandae animi, ducimus, sequi minus atque placeat nostrum? Esse porro iste
+            voluptatem rerum nihil aspernatur vero ab.
+
+          </p>
+          <div class="testimonials__data">
+            <img class="testimonials__img" src="assets/img/testimonial-2.jpg" alt="">
+            <div>
+              <h3 class="testimonials__name">Jhon</h3>
+              <span class="testimonials__identity">india</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section> --> 
+
+    <!--==================== CONTACT ====================-->
+    <section class="contact section" id="contact">
+      <h2 class="section__title title-center" data-title="Get In Touch"></h2>
+      <div class="contact__container container grid">
+        <div class="contact__details">
+          <div class="contact__item">
+            <i class="fa-solid fa-phone contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Call Me</h3>
+              <span class="contact__data">+91905-729-32-42</span>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <i class="fa-solid fa-envelope contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Email Me</h3>
+              <span class="contact__data">abhisheksaini43950@gmail.com</span>
+            </div>
+          </div>
+
+
+          <div class="contact__item">
+            <i class="fa-solid fa-location-dot contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Address</h3>
+              <span class="contact__data">Kota,Rajasthan(india)</span>
+            </div>
+          </div>
+
+        </div>
+
+        <form action="" class="contact__form">
+          <div class="form__group">
+            <div class="form__input">
+              <input type="text" placeholder="Name" class="input__control">
+            </div>
+
+            <div class="form__input">
+              <input type="email" placeholder="Email" class="input__control">
+            </div>
+
+          </div>
+          <div class="form__input">
+            <input type="email" placeholder="subject" class="input__control">
+          </div>
+
+          <div class="form__input">
+            <textarea name="" id="" placeholder="Message" cols="30" rows="10"
+              class="input__control textarea"></textarea>
+          </div>
+
+          <button class="btn contact__btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__container container">
+      <p class="footer__copyright">&copy; 2024 Abhishek.All Rights Reserved</p>
+
+      <div class="footer__social-links">
+        <a href="https://github.com/Abhi45op" target="_blank" class="footer__social-link">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/its__abhiishek?igsh=MTdwNDQxOXp1amZsbQ%3D%3D&utm_source=qr"
+          class="footer__social-link" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="" class="footer__social-link">
+          <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/abhishek-saini-10231a277/" target="_blank" class="footer__social-link">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://x.com/abhiisheksaini1?s=11" target="_blank" class="footer__social-link">
+          <i class="fa-brands fa-square-x-twitter"></i>
+
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
